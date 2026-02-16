@@ -1,5 +1,5 @@
 # count vowels in string
-s = "avanisharma"
+s = "kushagramathuria"
 vowel = "aeiouAEIOU"
 count = 0
 for ch in s:
@@ -8,7 +8,7 @@ for ch in s:
 print("vowel: ", count)
 
 # count consonants in string
-s = "avanisharma"
+s = "kushagramathuria"
 vowel = "aeiouAEIOU"
 count = 0
 for ch in s:
@@ -17,7 +17,7 @@ for ch in s:
 print("consonants: ", count)
 
 # count uppercase in string
-s = "avaniSHARMA"
+s = "kushagraMATHURIA"
 count = 0
 for ch in s:
     if ch.isupper():
@@ -25,7 +25,7 @@ for ch in s:
 print("uppercase: ", count)
 
 # count lowercase in string
-s = "avaniSHARMA"
+s = "kushagraMATHURIA"
 count = 0
 for ch in s:
     if ch.islower():
@@ -33,7 +33,7 @@ for ch in s:
 print("lowercase: ", count)
 
 # count digit in string 
-s = "avaniSHARMA230324"
+s = "kushagraMATHURIA123456"
 count = 0
 for ch in s:
     if ch.isdigit():
@@ -41,7 +41,7 @@ for ch in s:
 print("digit: ", count)
 
 # count space in string
-s = "avani SHARMA"
+s = "kushagra MATHURIA"
 count = 0
 for ch in s:
     if ch == " ":
@@ -49,7 +49,7 @@ for ch in s:
 print("space: ", count)
 
 # count special character
-s = "avaniSHARMA@#$12"
+s = "kushagraMATHURIA@#!12"
 count = 0
 for ch in s:
     if not ch.isalnum():
@@ -57,10 +57,11 @@ for ch in s:
 print("special character: ", count)
 
 # count total characters
-s = "avaniSHARMA@#$12"
+s = "kushagraMATHURIA@#$12"
 print("total character: ", len(s))
 
 # count word in string
-s = "avani SHARMA @#$12"
+s = "kushagra MATHURIA @#$12"
 words = s.split()
+
 print("word: ", len(words))
