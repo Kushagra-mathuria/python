@@ -1,5 +1,5 @@
 # elements in a list are accessed using indexing. 
-a = [1,2,45,6,7,8,'avani', 'chinki']
+a = [1,2,45,6,7,8,'kushagra', 'chanchal']
 print(a[0])
 print(a[5])
 print(a[-1])
