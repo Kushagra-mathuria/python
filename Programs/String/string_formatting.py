@@ -1,12 +1,12 @@
 # string formatting using (f-string):
 age = 28
-name = "Hemant"
+name = "deepak"
 a = f"My name is {name} and my age is {age}"
 print(a)
 
 # string formatting using (format):
 age1 = 21
-name1 = "Avani"
+name1 = "kushagra"
 x = "My name is {} and my age is {}".format(name1, age1)
 print(x)
 
@@ -17,4 +17,5 @@ print(a)
 
 # placeholders: can contain python code like math operations
 a = f"The price is {20*53} dollars."
+
 print(a)
