@@ -1,13 +1,13 @@
 # upper(): converts a string into uppercase.
-a = "avani sharma"
+a = "kushagra mathuria"
 print(a.upper())
 
 # lower(): converts a string into lowercase.
-b = "AVANI SHARMA"
+b = "KUSHAGRA MATHURIA"
 print(b.lower())
 
 # title(): converts the first character of each word to uppercase.
-c = "avani sharma"
+c = "kushagra mathuria"
 print(c.title())
 
 # capitalize(): converts the first character only to uppercase.
@@ -16,4 +16,5 @@ print(d.capitalize())
 
 # swapcase(): swaps cases, lowercase becomes uppercase and vice versa.
 e = "this iS A BOOK. I love to READ THE books."
+
 print(e.swapcase())
