@@ -1,28 +1,29 @@
 # replace(): replace string with another string
-a = "avani sharma"
-print(a.replace("sharma", "jangid"))
+a = "kushagra mathuria"
+print(a.replace("mathuria", "gupta"))
 
 # strip(): remove whitespace
-a = "               avani          sharma    "
+a = "               kushagra          mathuria    "
 print(a.strip())
 
 # lstrip(): remove left whitespace
-a = "     avani sharma"
+a = "     kushagra mathuria"
 print(a.lstrip())
 
 # rstrip(): remove right whitespace
-a = "avani sharma         "
+a = "kushagra mathuria         "
 print(a.rstrip())
 
 # split(): splits the string from the left (beginning).
-a = "avani sharma"
+a = "kushagra mathuria"
 print(a.split())
 
 # rsplit(): splits the string from the right (end).
-a = "avani sharma"
+a = "kushagra mathuria"
 print(a.rsplit(","))
 
 # join(): join the elements of an iterable to the end of string.
 a = "avani sharma"
 w="#".join(a)
+
 print(w)
