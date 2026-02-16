@@ -1,4 +1,4 @@
-b = "Avani Sharma"
+b = "kushagra mathuria"
 print(b[-8:])
 print(b[-4:])
 print(b[0:-5])
@@ -18,3 +18,4 @@ print(b[-10:-2:-2])
 print(b[-1::-3])
 print(b[-8::-2])
 print(b[-5:-4])
+
