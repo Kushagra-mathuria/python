@@ -1,5 +1,5 @@
 # reverse complete string
-s = "avani"
+s = "kushagra"
 rev = ""
 for ch in s:
     rev = ch + rev
@@ -14,8 +14,9 @@ for w in words:
 print(result)
 
 # reverse word order
-s = "avani sharma python"
+s = "kushagra mathuria python"
 words = s.split()
 rev = words[::-1]
 result = " ".join(rev)
+
 print(result)
