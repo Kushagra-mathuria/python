@@ -1,3 +1,4 @@
-a = ['apple', 'avani', 'a','s']
+a = ['apple', 'kushagra', 'a','s']
 if 'apple' in a:
+
     print("yes, item is exists ")
