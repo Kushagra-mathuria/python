@@ -1,3 +1,4 @@
 # type() function
-a = [1,2,4,'avani']
+a = [1,2,4,'kushagra']
+
 print(type(a))
