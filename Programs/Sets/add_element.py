@@ -4,5 +4,6 @@ s.add(6)
 print(s)
 
 s1 = {1,2,3,4,4}
-s1.add('Avani')
+s1.add('kushagra')
+
 print(s1)
