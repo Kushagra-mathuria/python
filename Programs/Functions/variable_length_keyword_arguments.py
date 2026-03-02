@@ -5,4 +5,5 @@ def details(**kwargs):
     for key, value in kwargs.items():
         print(f'{key} -> {value}')
     return kwargs
-details(name = 'avani', batch = 'a23', location = 'bhiwadi')
+
+details(name = 'kushagra', batch = 'A23', location = 'rajasthan')
