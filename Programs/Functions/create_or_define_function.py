@@ -11,14 +11,14 @@
 
 # calling a function: to call function write its name followed by parentheses
 def greeting():
-  print("avani")
+  print("kushagra")
 greeting()
 
 print() 
 
 # you can call the same functions many times
 def greeting():
-  print("hey, avani")
+  print("hey, kushagra")
 greeting()
 greeting()
 greeting()
@@ -28,7 +28,7 @@ print()
 # with parameters
 def  greeting(name):
   print(f"hello, {name}")
-greeting('avani')
+greeting('kushagra')
 
 print()
 
@@ -47,4 +47,5 @@ def fahrenheit_to_celsius(fahrenheit):
   return (fahrenheit - 32) * 5 / 9
 print(fahrenheit_to_celsius(77))
 print(fahrenheit_to_celsius(95))
+
 print(fahrenheit_to_celsius(50))
