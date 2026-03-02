@@ -2,4 +2,5 @@
 # in that position in whihc the parameter are defined
 def show_details (name, location):
   return f"hello, I am {name}. I belongs from {location}"
-print(show_details('avani', 'bhiwadi'))
+
+print(show_details('kushagra', 'rajasthan'))
