@@ -4,7 +4,8 @@ def employee (name, dept, salary):
   return f"hello, I am {name}, dept {dept}, salary {salary}"
 
 # positional arguments
-employee ('avani', 'HR', 50000)
+employee ('kushagra', 'HR', 50000)
 
 # keyword arguments
-employee (name = 'avani', dept = 'HR', salary = 50000)
+
+employee (name = 'kushagra', dept = 'HR', salary = 50000)
