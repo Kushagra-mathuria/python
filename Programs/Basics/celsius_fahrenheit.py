@@ -6,4 +6,4 @@ print(F)
 # take input celsius and then convert celsius to fahrenheit
 celsius = int(input())
 fahrenheit = (celsius * 9/5)+32
-print(fahrenheit)
+print(fahrenheit) 
