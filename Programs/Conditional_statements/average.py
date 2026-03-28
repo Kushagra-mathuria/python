@@ -8,7 +8,7 @@ c = int(input("Enter marks in subject 3: "))
 avg = (a + b + c) / 3
 if avg > 90:
     grade = "Excellent"
-elif avg >= 75 and avg <= 90:
+elif avg >= 75 and avg <= 90: 
     grade = "Good"
 elif avg >= 60 and avg < 75:
     grade = "Average"
